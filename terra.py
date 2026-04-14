@@ -1,20 +1,20 @@
 # distance of nearest fib to sum of arr
-arr=[2,4,6,8,15,6,90]
-total_arr_sum=sum(arr)
-a,b=0,1
-while b<total_arr_sum:
-    c=a+b
-    a=b
-    b=c
+# arr=[2,4,6,8,15,6,90]
+# total_arr_sum=sum(arr)
+# a,b=0,1
+# while b<total_arr_sum:
+#     c=a+b
+#     a=b
+#     b=c
 
-dist=0
-print(a,total_arr_sum,b)
-if total_arr_sum-a<b-total_arr_sum:
-    dist=total_arr_sum-a
+# dist=0
+# print(a,total_arr_sum,b)
+# if total_arr_sum-a<b-total_arr_sum:
+#     dist=total_arr_sum-a
 
-else:
-    dist=b-total_arr_sum
-print(dist)
+# else:
+#     dist=b-total_arr_sum
+# print(dist)
 
 
 # # print(total_arr_sum)
@@ -121,7 +121,57 @@ print(dist)
 # else:
 #      print("-1")
 
-     
+
+
+# time conversion
+
+
+# def cal(data):
+#     time,period=data[:-2],data[-2:]
+#     h,m=time.split(":")
+#     h=int(h)
+#     m=int(m)
+#     if period=="am":
+#         if h==12:
+#             h=0
+#     else:
+#         if h!=12:
+#             h+=12
+#     return h*60+m   #610=600   10
+    
+# string="10:10am-12:20am"    # 10 -> 12 ->00:10
+
+# start,end=string.split("-")
+# # print(start)
+# # print(end)
+
+# st=cal(start)
+# et=cal(end)
+
+# if et<st:
+#     res=(1440-st)+et
+# else:
+#     res=et-st
+# print(res)
+
+# print(res//60,":",res%60)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
