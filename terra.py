@@ -157,6 +157,64 @@
 # print(res//60,":",res%60)
 
 
+# is list in arithmetic or geometric if not in  both -1
+
+# li=[2,4,8,16,32,34]
+
+# is_arithmetic=True
+# dif=li[1]-li[0]
+# for i in range(len(li)-1):
+#     if li[i+1]-li[i]!=dif:
+#         is_arithmetic=False
+#         break
+# # print(is_arithmetic)
+
+# if not is_arithmetic and li[0]!=0:
+#     is_geometric=True
+#     ratio=li[1]/li[0]
+#     for i in range(len(li)-1):
+#         if li[i+1]/li[i]!=ratio:
+#             is_geometric=False
+#             break
+
+# if is_arithmetic:
+#     print("It is in arithmetic sequence")
+# elif is_geometric:
+#     print("it is in geometric")
+# else:
+#     print("-1")
+
+
+# string="254809763"
+# new_string=""
+
+# for i in range(len(string)-1):
+#     a=int(string[i])
+#     b=int(string[i+1])
+#     if a%2==0 and b%2==0 and a!=0 and b!=0:
+#         new_string=new_string+string[i]+"*"
+#     elif a%2!=0 and b%2!=0:
+#         new_string=new_string+string[i]+"-"
+#     else:
+#         new_string=new_string+string[i]
+# new_string=new_string+string[-1]   
+# print(new_string)
+
+# smallest dif of fib to sum of arr:
+arr=[1,2,3,4,2]
+tsum=sum(arr)
+
+a,b=0,1
+while b<tsum:
+    c=a+b
+    a=b                    
+    b=c
+    # print(c)
+
+if tsum-a<b-tsum:    #   a=8   tsum=12   b=13     
+    print(tsum-a)
+else:
+    print(b-tsum)
 
 
 
