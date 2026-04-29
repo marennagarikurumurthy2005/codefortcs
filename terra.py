@@ -201,20 +201,20 @@
 # print(new_string)
 
 # smallest dif of fib to sum of arr:
-arr=[1,2,3,4,2]
-tsum=sum(arr)
+# arr=[1,2,3,4,2]
+# tsum=sum(arr)
 
-a,b=0,1
-while b<tsum:
-    c=a+b
-    a=b                    
-    b=c
-    # print(c)
+# a,b=0,1
+# while b<tsum:
+#     c=a+b
+#     a=b                    
+#     b=c
+#     # print(c)
 
-if tsum-a<b-tsum:    #   a=8   tsum=12   b=13     
-    print(tsum-a)
-else:
-    print(b-tsum)
+# if tsum-a<b-tsum:    #   a=8   tsum=12   b=13     
+#     print(tsum-a)
+# else:
+#     print(b-tsum)
 
 
 
