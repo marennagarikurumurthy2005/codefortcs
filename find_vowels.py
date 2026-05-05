@@ -19,11 +19,4 @@
 
 
 
-#arrays
-#Strings
-#dictonaries
-#sorting
-#trees
-#graphs
-#searching
-#linked-list
+
