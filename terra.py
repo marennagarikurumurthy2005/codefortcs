@@ -157,7 +157,7 @@
 # print(res//60,":",res%60)
 
 
-# is list in arithmetic or geometric if not in  both -1
+# is list in arithmetic or geometric if not in  both -1 if both 1
 
 # li=[2,4,8,16,32,34]
 
@@ -210,11 +210,34 @@
 #     a=b                    
 #     b=c
 #     # print(c)
-
+# print(a,tsum,b)
 # if tsum-a<b-tsum:    #   a=8   tsum=12   b=13     
 #     print(tsum-a)
 # else:
 #     print(b-tsum)
+
+
+
+# arr=[1,2,3,4,2]==>12
+# 8 --12-- 13
+
+
+
+# arr=[1,2,3,4,2]
+# asum=sum(arr)
+# print(asum)
+# a,b=0,1
+# while b<asum:
+#     c=a+b
+#     a=b
+#     b=c
+# if asum-a<b-asum:
+#     print(asum-a)
+# else:
+#     print(b-asum)
+
+
+# [print(a,b,asum)]
 
 
 

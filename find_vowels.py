@@ -13,3 +13,17 @@
 # print(new_arr)
 
 # https://github.com/marennagarikurumurthy2005/slamds.git
+
+
+
+
+
+
+#arrays
+#Strings
+#dictonaries
+#sorting
+#trees
+#graphs
+#searching
+#linked-list
