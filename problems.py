@@ -44,13 +44,39 @@
 
 # reversing a number
 
-given=int(input("Enter a number:"))
-res=0
-while given>0:
-    rem=given%10
-    given//=10
-    res=rem+res*10
-print(res)
+# given=int(input("Enter a number:"))
+# res=0
+# while given>0:
+#     rem=given%10
+#     given//=10
+#     res=rem+res*10
+# print(res)
+
+# armstrong number 
+# num=10
+# l=len(str(num))
+# tar=0
+# while num>0:
+#     rem=num%10
+#     num//=10
+#     tar=tar+rem**l
+# print(tar)
+
+
+# fibonacci number of sequence 10
+a,b=0,1
+n=10
+for i in range(n):
+    print(a)
+    c=a+b
+    a=b
+    b=c
+
+
+    
+
+
+
 
 
 
