@@ -64,16 +64,27 @@
 
 
 # fibonacci number of sequence 10
-a,b=0,1
-n=10
-for i in range(n):
-    print(a)
-    c=a+b
-    a=b
-    b=c
+# a,b=0,1
+# n=10
+# for i in range(n):
+#     print(a)
+#     c=a+b
+#     a=b
+#     b=c
 
 
-    
+# remove duplicates in given list 
+
+# raw="10,15,8,6,8,10"
+# data=list(map(int,raw.split(",")))
+# print(data)
+# new_data=set(data)
+# print(new_data)
+# samp=[]
+# for i in data:
+#     if i not in samp:
+#         samp.append(i)
+# print(samp)
 
 
 
