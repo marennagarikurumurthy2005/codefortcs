@@ -86,7 +86,38 @@
 #         samp.append(i)
 # print(samp)
 
+# anagrams
 
+data=["cat","tac","mac","cam"]
+res=[]
+count=0
+while count<len(data):
+    dumb=[]
+    an1={}
+    
+    for i in data[count]:
+        if i in an1:
+            an1[i]+=1
+        else:
+            an1[i]=1
+    for j in data:
+        an2={}
+        if j!=data[count]:
+            for k in j:
+                if k in an2:
+                    an2[k]+=1
+                else:
+                    an2[k]=1
+        if an1==an2:
+            if data[count] in dumb:
+                dumb.append(j)
+            else:
+                dumb.append(data[count])
+                dumb.append(j)
+    res.append(dumb)
+    count+=1
+    
+print(res)
 
 
 
