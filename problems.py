@@ -88,7 +88,7 @@
 
 # anagrams
 
-data=["cat","tac","mac","cam"]
+data=["cat","tac","act","mac","cam","ban","van"]
 res=[]
 count=0
 while count<len(data):
