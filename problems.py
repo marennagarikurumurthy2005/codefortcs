@@ -123,12 +123,42 @@
 # print(res)
 
 
-data=["list","tuple","mk","var","car"]
-for i in range(len(data)):
-    for j in range(i+1,len(data)):
-        if len(data[i])>len(data[j]):
-            data[i],data[j]=data[j],data[i]
+# data=["list","tuple","mk","var","car"]
+# for i in range(len(data)):
+#     for j in range(i+1,len(data)):
+#         if len(data[i])>len(data[j]):
+#             data[i],data[j]=data[j],data[i]
+# print(data)
+
+# arr=[10,0,20,90,40,0,50,10]
+# for i in arr:
+#     print(arr.count(i))
+# ar1=[]
+# ar2=[]
+# for i in arr:
+#     if i==0:
+#         ar1.append(i)
+#     else:
+#         ar2.append(i)
+# print(ar2+ar1)
+# for i in range(len(arr)):
+#     # for j in range(i+1,len(arr)):
+#     #     if arr[i]<arr[j]:
+#     #         arr[i],arr[j]=arr[j],arr[i]
+    
+
+# print(arr)
+
+n=int(input("Enter number of operations"))
+data=[]
+for i in range(n):
+    d=input().split("")
+    data.append(d)
 print(data)
+
+
+
+
 
 
 
