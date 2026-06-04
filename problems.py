@@ -97,7 +97,6 @@
 # while count<len(data):
 #     dumb=[]
 #     an1={}
-    
 #     for i in data[count]:
 #         if i in an1:
 #             an1[i]+=1
@@ -149,12 +148,16 @@
 
 # print(arr)
 
-n=int(input("Enter number of operations"))
-data=[]
-for i in range(n):
-    d=input().split("")
-    data.append(d)
-print(data)
+# n=int(input("Enter number of operations"))
+# data=[]
+# for i in range(n):
+#     d=input().split("")
+#     data.append(d)
+# print(data)
+
+
+
+
 
 
 
